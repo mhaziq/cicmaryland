@@ -43,12 +43,12 @@ a {
 .announcement-banner {
     background: linear-gradient(135deg, var(--primary-color) 0%, #1e4620 100%);
     color: var(--white);
-    padding: 20px;
+    padding: 20px 40px;
     text-align: center;
 }
 
 .announcement-content {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -71,9 +71,10 @@ a {
 
 .announcement-text {
     font-size: 16px;
-    line-height: 1.6;
-    max-width: 900px;
+    line-height: 1.8;
+    max-width: 100%;
     text-align: center;
+    padding: 0 20px;
 }
 
 .announcement-text strong {
