@@ -252,6 +252,14 @@ a {
     text-align: center;
 }
 
+.bismillah {
+    font-size: 48px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    font-weight: 600;
+    direction: rtl;
+}
+
 .hero h1 {
     font-size: 48px;
     margin-bottom: 20px;
