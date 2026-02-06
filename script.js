@@ -101,8 +101,8 @@ function updateJummahTimes(jummahData) {
         const jummahItem = document.createElement('div');
         jummahItem.className = 'jummah-item';
         jummahItem.innerHTML = `
-            <div class="jummah-number">Jummah ${index + 1}</div>
             <div class="jummah-time">${formatTime(jummah.time || jummah)}</div>
+            <div class="jummah-location">📍 Clarksburg Neighborhood Park<br>22501 Wims Rd, Clarksburg, MD 20871</div>
             ${jummah.speaker ? `<div class="jummah-speaker">${jummah.speaker}</div>` : ''}
         `;
         jummahGrid.appendChild(jummahItem);
