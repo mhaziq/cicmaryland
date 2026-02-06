@@ -201,7 +201,7 @@ a {
 
 .jummah-times h3 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: var(--primary-color);
 }
 
@@ -225,7 +225,7 @@ a {
     color: var(--primary-color);
     font-weight: 700;
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .jummah-location {
