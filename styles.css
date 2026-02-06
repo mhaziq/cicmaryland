@@ -39,46 +39,6 @@ a {
     padding: 0 20px;
 }
 
-/* Banner */
-.banner {
-    background-color: var(--primary-color);
-    color: var(--white);
-    padding: 12px 20px;
-}
-
-.banner-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-}
-
-.banner-content p {
-    margin: 0;
-    font-size: 14px;
-}
-
-.banner-content a {
-    color: var(--secondary-color);
-    text-decoration: underline;
-}
-
-.banner-close {
-    background: none;
-    border: none;
-    color: var(--white);
-    font-size: 24px;
-    cursor: pointer;
-    padding: 0;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 /* Navigation */
 .navbar {
     background-color: var(--white);
