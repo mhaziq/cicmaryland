@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Clarksburg Islamic Center</title>
+    <meta name="description" content="Welcome to Clarksburg Islamic Center - A community center dedicated to spiritual growth, education, and unity in Clarksburg, MD.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Banner -->
+    <section class="banner">
+        <div class="banner-content">
+            <p>Are you a new Muslim or interested in Islam? Please <a href="#contact">contact us</a> to learn more about our Islam 101 program.</p>
+            <button class="banner-close" onclick="this.parentElement.parentElement.style.display='none'">&times;</button>
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="../images/LogoCiC.jpeg" alt="Clarksburg Islamic Center">
+            </a>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="#programs" class="nav-link">Programs</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <div class="nav-buttons">
+                    <a href="#volunteer" class="btn btn-secondary">Volunteer</a>
+                    <a href="#donate" class="btn btn-primary">Donate</a>
+                </div>
+            </div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Prayer Times -->
+    <section class="prayer-times">
+        <div class="container">
+            <div class="prayer-times-grid">
+                <div class="prayer-item">
+                    <div class="prayer-icon">🌅</div>
+                    <div class="prayer-info">
+                        <div class="prayer-name">Fajr</div>
+                        <div class="prayer-time">6:30 AM</div>
+                    </div>
+                </div>
+                <div class="prayer-item">
+                    <div class="prayer-icon">☀️</div>
+                    <div class="prayer-info">
+                        <div class="prayer-name">Dhuhr</div>
+                        <div class="prayer-time">12:30 PM</div>
+                    </div>
+                </div>
+                <div class="prayer-item">
+                    <div class="prayer-icon">🌤️</div>
+                    <div class="prayer-info">
+                        <div class="prayer-name">Asr</div>
+                        <div class="prayer-time">3:30 PM</div>
+                    </div>
+                </div>
+                <div class="prayer-item">
+                    <div class="prayer-icon">🌆</div>
+                    <div class="prayer-info">
+                        <div class="prayer-name">Maghrib</div>
+                        <div class="prayer-time">5:45 PM</div>
+                    </div>
+                </div>
+                <div class="prayer-item">
+                    <div class="prayer-icon">🌙</div>
+                    <div class="prayer-info">
+                        <div class="prayer-name">Isha</div>
+                        <div class="prayer-time">7:30 PM</div>
+                    </div>
+                </div>
+            </div>
+            <div class="jummah-times">
+                <h3>Friday Jummah Prayer</h3>
+                <div class="jummah-grid">
+                    <div class="jummah-item">
+                        <div class="jummah-number">Jummah 1</div>
+                        <div class="jummah-time">1:30 PM</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <img src="../images/FilteredDesign.png" alt="As-Salamu Alaikum" class="greeting-image">
+                    <h1>Welcome to<br>Clarksburg Islamic Center</h1>
+                    <p class="hero-description">At Clarksburg Islamic Center, we learn, share and unite under the light (noor) of Islam. This is a center where everyone is family.</p>
+                    <div class="hero-buttons">
+                        <a href="#programs" class="btn btn-outline">Programs & Events</a>
+                        <a href="#donate" class="btn btn-primary">Donate Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events" id="programs">
+        <div class="container">
+            <h2>Upcoming Events & Programs</h2>
+            <div class="events-grid">
+                <div class="event-card">
+                    <img src="../images/RamadanFlyer.png" alt="Ramadan Program">
+                    <div class="event-content">
+                        <h3>Ramadan 2026</h3>
+                        <p>Join us for a blessed Ramadan with daily Taraweeh prayers, Iftar gatherings, and special programs.</p>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <img src="../images/FridayPrayers_Park.png" alt="Friday Prayers">
+                    <div class="event-content">
+                        <h3>Friday Prayers</h3>
+                        <p>Weekly Jummah prayers with inspiring khutbahs and community gathering.</p>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <img src="../images/Event.jpeg" alt="Community Event">
+                    <div class="event-content">
+                        <h3>Community Events</h3>
+                        <p>Regular programs for families, youth, and children to strengthen our community bonds.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <p>Clarksburg Islamic Center is a vibrant community center dedicated to serving Muslims in Clarksburg, Maryland and surrounding areas. We provide a welcoming space for worship, education, and community engagement.</p>
+                <div class="about-features">
+                    <div class="feature">
+                        <h3>🕌 Daily Prayers</h3>
+                        <p>Five daily prayers in congregation</p>
+                    </div>
+                    <div class="feature">
+                        <h3>📚 Islamic Education</h3>
+                        <p>Quran and Islamic studies for all ages</p>
+                    </div>
+                    <div class="feature">
+                        <h3>👨‍👩‍👧‍👦 Community</h3>
+                        <p>Family-friendly programs and events</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>📍 Address</h3>
+                        <p>Clarksburg, Maryland</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>📧 Email</h3>
+                        <p><a href="mailto:info@clarksburgic.org">info@clarksburgic.org</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>📞 Phone</h3>
+                        <p><a href="tel:+1234567890">(123) 456-7890</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Clarksburg Islamic Center. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
