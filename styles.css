@@ -62,6 +62,19 @@ a {
     width: auto;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-text {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
 .nav-menu {
     display: flex;
     align-items: center;
@@ -400,6 +413,10 @@ a {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .logo-text {
+        display: none;
+    }
+
     .nav-menu {
         position: fixed;
         left: -100%;
