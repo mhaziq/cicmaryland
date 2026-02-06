@@ -574,6 +574,7 @@ a {
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(0,0,0,0.05);
         padding: 20px 0;
+        z-index: 999;
     }
 
     .nav-menu.active {
@@ -584,21 +585,149 @@ a {
         display: flex;
     }
 
+    /* Announcement Banner Mobile */
+    .announcement-banner {
+        padding: 15px 20px;
+    }
+    
+    .announcement-text {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    /* Hero Section Mobile */
+    .hero {
+        padding: 30px 0;
+    }
+
+    .bismillah {
+        font-size: 28px;
+    }
+
     .hero h1 {
-        font-size: 32px;
+        font-size: 28px;
     }
 
     .hero-description {
-        font-size: 16px;
+        font-size: 14px;
+    }
+
+    /* Prayer Times Mobile */
+    .prayer-times {
+        padding: 15px 0;
     }
 
     .prayer-times-grid {
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+        gap: 10px;
+    }
+
+    .prayer-item {
+        padding: 10px 12px;
+    }
+
+    .prayer-icon {
+        font-size: 20px;
+    }
+
+    .prayer-name {
+        font-size: 13px;
+    }
+
+    .prayer-time {
+        font-size: 14px;
+    }
+
+    /* Jummah Mobile */
+    .jummah-times {
+        padding: 12px 15px;
+    }
+
+    .jummah-inline {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .jummah-separator {
+        display: none;
+    }
+
+    .jummah-label {
+        font-size: 14px;
+    }
+
+    .jummah-time-inline {
+        font-size: 16px;
+    }
+
+    .jummah-location-inline {
+        font-size: 13px;
+    }
+
+    /* Property Announcement Mobile */
+    .property-announcement {
+        padding: 30px 0 40px 0;
+    }
+
+    .property-announcement h2 {
+        font-size: 22px;
+    }
+
+    .announcement-subtitle {
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+    /* Events Section Mobile */
+    .events {
+        padding: 40px 0;
     }
 
     .events h2,
     .about h2,
     .contact h2 {
-        font-size: 28px;
+        font-size: 24px;
+    }
+
+    .events-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    /* About Section Mobile */
+    .about {
+        padding: 40px 0;
+    }
+
+    .about-features {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    /* Contact Section Mobile */
+    .contact {
+        padding: 30px 0;
+    }
+
+    .contact h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .contact-info-row {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 20px;
+    }
+
+    .contact-item-inline {
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+    }
+
+    .contact-label,
+    .contact-value {
+        font-size: 13px;
     }
 }
