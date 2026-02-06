@@ -371,45 +371,54 @@ a {
 
 /* Contact Section */
 .contact {
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 .contact h2 {
     text-align: center;
-    font-size: 36px;
-    margin-bottom: 50px;
+    font-size: 28px;
+    margin-bottom: 20px;
     color: var(--primary-color);
 }
 
 .contact-content {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
-.contact-info {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+.contact-info-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
-}
-
-.contact-item {
+    flex-wrap: wrap;
     background-color: var(--bg-light);
-    padding: 30px;
-    border-radius: 12px;
-    text-align: center;
+    padding: 15px 25px;
+    border-radius: 8px;
 }
 
-.contact-item h3 {
-    margin-bottom: 15px;
-    color: var(--primary-color);
+.contact-item-inline {
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
 
-.contact-item a {
+.contact-icon {
+    font-size: 18px;
+}
+
+.contact-label {
+    font-weight: 600;
     color: var(--text-dark);
-    transition: color 0.3s;
+    font-size: 14px;
 }
 
-.contact-item a:hover {
+.contact-value {
+    color: var(--text-light);
+    font-size: 14px;
+}
+
+.contact-value:hover {
     color: var(--primary-color);
 }
 
